@@ -318,7 +318,7 @@ def show_landing_page():
     # Anda bisa mengubah angka di dalam list [1, 0.8, 1] untuk menggeser tombol.
     # Angka pertama: spasi kiri. Angka kedua: lebar tombol. Angka ketiga: spasi kanan.
     # Untuk menggeser ke kanan, perbesar angka pertama (contoh: 1.1) dan perkecil angka ketiga (contoh: 0.9).
-    _, btn_col, _ = st.columns([1.4, 0.8, 1]) 
+    _, btn_col, _ = st.columns([1.5, 0.8, 1]) 
     with btn_col:
         if st.button("Mulai Sekarang!", key="start_btn"):
             go_to_camera()
