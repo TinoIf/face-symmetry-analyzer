@@ -48,7 +48,7 @@ venv\Scripts\activate
 c. **Instal Dependensi**
 
 ```Bash
-pip install -r requirements-windows.txt
+pip install -r requirements.txt
 ```
 
 ▶️ Menjalankan Aplikasi
